@@ -22,6 +22,10 @@ document.querySelector("main").addEventListener("click", function() {
     nav.classList.remove("visible");
 })
 
+document.querySelector(".ig").addEventListener("click", function() {
+    nav.classList.remove("visible");
+});
+
 
 /* SCROLL UP MENU */
 
