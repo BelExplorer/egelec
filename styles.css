@@ -52,7 +52,7 @@ header {
     display: none;
 }
 
-hr {
+.hr-nav {
     display: none;
     width: 100%;
     border: 1px solid #8f8f8f;
@@ -73,7 +73,7 @@ main {
 @media screen and (max-width: 800px) {
     
         
-    .abrir-menu, .cerrar-menu, .nav-icon {
+    .abrir-menu, .cerrar-menu {
         display: block;
         border: none;
         font-size: 1.5rem;
@@ -112,7 +112,8 @@ main {
     }
 
     .nav-icon {
-        width: 6rem;
+        display: block;
+        width: 5rem;
     }
 
     .nav.visible {
@@ -120,7 +121,7 @@ main {
         visibility: visible;
     }
 
-    hr {
+    .hr-nav {
         display: block;
     }
 
@@ -129,9 +130,8 @@ main {
         align-items: start;
         padding-right: 6rem;
         list-style-type: circle;
+        color: #04089d;
         padding-left: 1.1rem;
-
-
     }
 
     .nav-list li a {
