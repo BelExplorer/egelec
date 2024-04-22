@@ -48,7 +48,7 @@ header {
     color: #04089d;
 }
 
-.abrir-menu, .cerrar-menu {
+.abrir-menu, .cerrar-menu, .nav-icon {
     display: none;
 }
 
@@ -73,7 +73,7 @@ main {
 @media screen and (max-width: 800px) {
     
         
-    .abrir-menu, .cerrar-menu {
+    .abrir-menu, .cerrar-menu, .nav-icon {
         display: block;
         border: none;
         font-size: 1.5rem;
@@ -88,7 +88,7 @@ main {
 
         display: flex;
         flex-direction: column;
-        align-items: end;
+        /*align-items: end;*/
         gap: 1rem;
         position: absolute;
         top: 0;
@@ -105,6 +105,16 @@ main {
         transition: 0.3s;
     }
 
+    .nav-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;        
+    }
+
+    .nav-icon {
+        width: 6rem;
+    }
+
     .nav.visible {
         opacity: 1;
         visibility: visible;
@@ -117,8 +127,8 @@ main {
     .nav-list {
         flex-direction: column;
         align-items: start;
-        padding-right: 2rem;
-        padding-left: 1rem;
+        padding-right: 6rem;
+        /*padding-left: 1rem;*/
 
 
     }
