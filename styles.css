@@ -73,16 +73,16 @@ main {
     padding: 30px;
 }
 
-.description-tools {
-    width: 30vw;
+.description-img {
+    width: 50vw;
     border-radius: 5px;
 }
 
 .description-text {
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size: 5vw;
+    font-weight: bolder;
     font-style: italic;
-    
+
     
 }
 
@@ -92,8 +92,7 @@ main {
 
 
 
-@media screen and (max-width: 800px) {
-    
+@media screen and (max-width: 800px) {    
         
     .abrir-menu, .cerrar-menu {
         display: block;
