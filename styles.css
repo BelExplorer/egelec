@@ -69,22 +69,30 @@ main {
 .description-div {
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 5%;
-    padding: 30px;
+    padding: 10px 30px;
 }
 
-.description-img {
+.description-text {
+    font-size: 2.5vw;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.description-img-board {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.description-img-tools {
     width: 50vw;
     border-radius: 5px;
 }
 
-.description-text {
-    font-size: 5vw;
-    font-weight: bolder;
-    font-style: italic;
 
-    
-}
 
 
 
@@ -150,9 +158,9 @@ main {
         flex-direction: column;
         align-items: start;
         padding-right: 6rem;
-        list-style-type: circle;
+        /*list-style-type: circle;*/
         color: #04089d;
-        padding-left: 1.1rem;
+        /*padding-left: 1.1rem;*/
     }
 
     .nav-list li a {
