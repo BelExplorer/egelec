@@ -19,6 +19,7 @@ header {
     top: 0;
     left: 0;
     transition: top 0.3s;
+    z-index: 1;
 }
 
 .navbar {
@@ -89,7 +90,7 @@ main {
 }
 
 .description-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bolder;
     font-style: italic;
     text-align: center;
@@ -211,11 +212,6 @@ main {
         
     }
 
-    .description-img-board {
-        
-    }
-
-
-
+  
 
 }
