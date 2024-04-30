@@ -85,7 +85,6 @@ main {
 
 .description-img-board {
     width: 100%;
-    min-width: 1000px;
     z-index: -1;
 }
 
