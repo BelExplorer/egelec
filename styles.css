@@ -12,7 +12,7 @@
 /*** HEADER ***/
 
 header {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(180, 186, 201);
     width: 100%;
     height: 100px;
     position: fixed;
@@ -140,21 +140,66 @@ main {
     justify-content: space-between;
     gap: 20px;
     padding: 15px 0;
+}
 
+.servicios-div2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.servicios-div3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 0;
 }
 
 .install-div {
+    border-radius: 5px;
     width: 50%;
     padding: 20px;
     box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
-
 }
 
 .light-div {
+    border-radius: 5px;
     width: 50%;
     padding: 20px;
-    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
 
+.security-div {
+    border-radius: 5px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.vent-div {
+    border-radius: 5px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.sign-div {
+    border-radius: 5px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.com-div {
+    border-radius: 5px;
+    width: 50%;
+    padding: 20px;
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
 .title2 {
@@ -164,14 +209,14 @@ main {
 }
 
 .services-list {
-    list-style-position: inside;
-    list-style-image: url(\F78F);
+    list-style-position: initial;
+    padding-left: 14px;
 }
 
 /*** FOOTER ***/
 
 footer {
-    background-color: rgb(185, 185, 185);
+    background-color: rgb(180, 186, 201);
     height: 110px;
     width: 100%;
   }
@@ -179,10 +224,19 @@ footer {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
   }
   .footer-text {
     line-height: 110px;
-    color: rgb(4, 8, 157);
+    color: #7d7d7e;
+  }
+
+  .footer-ig {
+    line-height: 110px;
+    color: #04089d;
+    text-decoration: none;
+    font-size: 22px;
   }
 
 
@@ -288,11 +342,11 @@ footer {
         width: 100%
     }
 
-    .servicios-div1 {
+    .servicios-div1, .servicios-div2, .servicios-div3 {
         flex-direction: column;
     }
 
-    .install-div, .light-div {
+    .install-div, .light-div, .security-div, .sign-div, .vent-div, .com-div {
         width: 100%;
     }
 
