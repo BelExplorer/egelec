@@ -250,6 +250,7 @@ main {
     justify-content: space-between;
     align-items: center;
     gap: 10%;
+    border-radius: 5px;
 
     /*width: 100%;*/
     /*margin: 0 auto;*/
@@ -264,11 +265,6 @@ main {
     border-radius: 5px;
     padding: 2rem 1.5rem;
     width: 60%;
-}
-
-.siganos-div {
-    padding: 2rem 1.5rem;
-    width: 30%;
 }
 
 .title3 {
@@ -295,22 +291,34 @@ main {
     font-size: 18px;
     border-radius: 5px;
     border: 1px solid black;
-    background-color: #585cc2;
+    background-color: #04089d;
     color: rgb(222, 222, 222);
     font-weight: bolder;
     padding: 5px 0;
     cursor: pointer;
 }
 
+.seguinos-div {
+    padding: 2rem 1.5rem;
+    width: 30%;
+}
+
+.title4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 .contacto-ig {
-    color: black;
+    color: #04089d;
     font-weight: bolder;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+
 }
 
 .icon-ig {
-    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #04089d;
+    font-size: 20px;
 }
 
 
@@ -460,7 +468,7 @@ footer {
         width: 100%;
     }
 
-    .siganos-div {
+    .seguinos-div {
         width: 100%;
         display: flex;
     }
