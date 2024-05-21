@@ -106,7 +106,9 @@ main {
 }
 */
 
-.inicio-div, .servicios-div {
+/*** Main Inicio ***/
+
+.inicio-div {
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px 30px;
@@ -131,6 +133,18 @@ main {
 .inicio-img {
     width: 38vw;
     border-radius: 5px;
+}
+
+/*** Main Servicios ***/
+
+.servicios-div {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .servicios-div1 {
@@ -213,6 +227,94 @@ main {
     padding-left: 14px;
 }
 
+/*** Main Galeria ***/
+
+
+
+
+
+/*** Main Contacto ***/
+
+.title-contacto {
+    padding-bottom: 15px;
+}
+
+.contacto-div {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.form-div {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+    box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    /*background-image: linear-gradient(to top, #e2e6f2 0%, #d3d7df 100%);*/
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 5px;
+    padding: 2rem 1.5rem;
+    width: 60%;
+}
+
+.siganos-div {
+    padding: 2rem 1.5rem;
+    width: 30%;
+}
+
+.title3 {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.form-input {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none; /* Quita outline al hacer click sobre la celda para escribir */
+    padding: 12px 20px;
+}
+
+.form-textarea {
+    resize: none;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.form-btn {
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #585cc2;
+    color: rgb(222, 222, 222);
+    font-weight: bolder;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.contacto-ig {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.icon-ig {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+
+
 /*** FOOTER ***/
 
 footer {
@@ -271,7 +373,7 @@ footer {
         padding-right: 1.4rem;
         padding-bottom: 1.5rem;
         padding-left: 1.4rem;
-        background-color: rgb(185, 185, 185);
+        background-color: rgb(180, 186, 201);
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.3);
         border-radius: 5px;
         transition: 0.3s;
@@ -350,6 +452,24 @@ footer {
         width: 100%;
     }
 
-  
+    .form-div {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .siganos-div {
+        width: 100%;
+        display: flex;
+    }
+
+    .contacto-ig {
+        padding-left: 6px;
+    }
+    
+    
+
 
 }
