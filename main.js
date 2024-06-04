@@ -40,3 +40,26 @@ window.onscroll = function() {
     }
     ubicacionInicial = desplazamientoActual;
 }
+
+
+/* GALLERY IMAGE ZOOM - BIG IMG */
+
+const bigImgDiv = document.getElementById("big-img-div");
+const bigImg = document.getElementById("big-img");
+
+const imgSelect = document.querySelectorAll(".galeria-img");
+
+
+for (var i = 0; i < imgSelect.length; i++) {
+
+    imgSelect[i].addEventListener("click", function() {
+            bigImgDiv.style.display = "flex";
+            const imgSrc = this.src;
+            bigImg.src = imgSrc;  
+    });  
+  }
+
+document.getElementById("cerrar-img").addEventListener("click", function() {
+    bigImgDiv.style.display = "none";
+})
+
